@@ -32,8 +32,12 @@ import Footer from './components/Footer/Footer'
 import Icon from './components/Icon/Icon';
 import Slider from './components/Slider/Slider'
 import Status from './components/Status/Status'
+import AdvancedTable from './components/AdvancedTable/AdvancedTable';
 import Chip from './components/Chip/Chip'
 import Stepper from './components/Stepper/Stepper';
+import List from './components/List/List';
+import FilterTypeGroup from './components/FilterTypeGroup/FilterTypeGroup';
+import ContentSwitcher from './components/ContentSwitcher/ContentSwitcher.js';
 
 
 function App() {
@@ -75,12 +79,19 @@ function App() {
       <Chip />
       <br />
 
+      <h2>Content Switcher</h2>
+      <ContentSwitcher />
+      
       <h2>Date Picker</h2>
       <DatePicker />
       <br />
 
       <h2>Dropdown</h2>
       <Dropdown />
+      <br />
+      
+      <h2>FilterTypeGroup</h2>
+      <FilterTypeGroup />
       <br />
 
       <h2>Icon</h2>
@@ -95,12 +106,20 @@ function App() {
       <Link />
       <br />
 
+      <h2>List</h2>
+      <List />
+      <br />
+
       <h2>Modal</h2>
       <Modal />
       <br />
 
       <h2>MultiSelect</h2>
       <MultiSelect />
+      <br />
+
+      <h2>Notification</h2>
+      <Notification />
       <br />
 
       <h2>Number indicator</h2>
@@ -177,6 +196,10 @@ function App() {
 
       <h2>Table (basic)</h2>
       <BasicTable />
+      <br />
+
+      <h2>Table (advanced)</h2>
+      <AdvancedTable />
       <br />
 
       <h2>Footer</h2>
